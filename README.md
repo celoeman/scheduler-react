@@ -17,7 +17,7 @@ Project is created with:
 * React : ^17.0.1
 * React-Dom: ^17.0.1
 * NPM: 6.14.4
-* Node: v12.16.3
+* Node: 12.16.3
 
 ## Setup
 To run this project, install it locally using npm:
