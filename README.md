@@ -9,8 +9,8 @@
 A simple scheduler app create with React. Project will consist of front-end and back-end (Node.JS / Express.JS).
 Initial repository was corrupted in some fashion and not displaying code properly, so code transfer to this one removed stage/commit history.
 
-![scheduler-react](scheduler-react.gif)
-<!-- <img src="scheduler-react.gif" width="100%" height="400px" /> -->
+<!-- ![scheduler-react](scheduler-react.gif) -->
+<img src="scheduler-react.gif" width="100%" />
 
 ## Technologies
 Project is created with:
