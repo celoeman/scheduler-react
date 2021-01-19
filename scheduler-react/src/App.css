@@ -1,0 +1,134 @@
+
+.containerA {
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  background: linear-gradient(to right, orange, purple);
+  margin: 50px auto;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.containerB {
+  width: 480px;
+  height: 480px;
+  background: white;
+  margin: auto;
+  border-radius: 5px;
+  position: relative;
+  top: 10px;
+}
+
+.mainHeader {
+  display: flex;
+}
+
+.mainTitle {
+  flex-grow: 4;
+  margin: 10px;
+}
+
+.button {
+  flex-grow: 2;
+  border: none;
+  outline: none;
+  margin: 10px;
+  background: white;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(to right, rgba(153,29,79,1), purple);
+}
+
+.button:hover {
+  box-shadow: 1px 1px 3px orange, -1px -1px 3px orange;
+}
+
+.task {
+  border: 2px solid orange;
+  cursor: pointer;
+  margin: 0 10px 10px 10px;
+}
+
+.tasksContainerFormOpen {
+  overflow: auto;
+  height: 215px;
+}
+
+.tasksContainerFormClosed {
+  overflow: auto;
+  height: 422px;
+}
+
+.reminder {
+  border: 2px solid purple;
+  background: rgba(128,0,128, .1);
+}
+
+.icon_x {
+  color: red;
+  float: right;
+}
+
+.icon_x::after {
+  clear: both;
+}
+
+.taskItem {
+  margin: 0;
+  padding-left: 5px;
+  user-select: none;
+}
+
+.taskDate {
+  margin: 0;
+  font-style: italic;
+  font-weight: 200;
+  padding-left: 20px;
+  user-select: none;
+  /* background: linear-gradient(to right, orange, white); */
+}
+
+/******************** Form  Content ********************/
+
+.mainForm {
+  margin: 0 10px 10px 10px;
+  position: relative;
+}
+
+.inputGrouping {
+  margin-bottom: 10px;
+}
+
+.inputs {
+  outline: none;
+  border-radius: 0;
+  border: 2px solid purple;
+  width: 60%;
+  height: 2em;
+  padding-left: 10px;
+}
+
+.inputs:focus {
+  box-shadow: 1px 1px 3px orange, -1px -1px 3px orange;
+}
+
+.formSave {
+  outline: none;
+  border-radius: 0;
+  border: none;
+  width: 100%;
+  height: 2em;
+  background: linear-gradient(to right, orange, purple);
+  color: white;
+  margin: auto;
+}
+
+.formSave:hover {
+  box-shadow: 1px 1px 3px orange, -1px -1px 3px orange;
+  cursor: pointer;
+}
+
+.caughtUp {
+  margin: auto;
+  text-align: center;
+}
