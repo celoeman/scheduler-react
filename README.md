@@ -14,6 +14,9 @@ Initial repository was corrupted in some fashion and not displaying code properl
 
 ## Technologies
 Project is created with:
+* HTML5
+* CSS3
+* JavaScript
 * React : ^17.0.1
 * React-Dom: ^17.0.1
 * NPM: 6.14.4
